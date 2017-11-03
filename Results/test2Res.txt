@@ -1,0 +1,97 @@
+		--AgendaManager--
+
+Enter the filename : test2.txt
+Cycle 1 Completed ----------->
+ Rule r15 with Priority 15 has been Executed
+
+Cycle 2 Completed ----------->
+ Rule r20 with Priority 20 has been Executed
+
+Cycle 3 Completed ----------->
+ Rule r100 with Priority 100 has been Executed
+
+Cycle 4 Completed ----------->
+ Rule r2 with Priority 2 has been Executed
+
+Cycle 5 Completed ----------->
+ Rule r100 with Priority 100 has been Executed
+
+Cycle 6 Completed ----------->
+ Rule r103 with Priority 100 has been Executed
+
+Cycle 7 Completed ----------->
+ Rule r102 with Priority 100 has been Executed
+
+Cycle 8 Completed ----------->
+ Rule r105 with Priority 100 has been Executed
+
+Cycle 9 Completed ----------->
+ Rule r104 with Priority 100 has been Executed
+
+Cycle 10 Completed ----------->
+ Rule r35 with Priority 35 has been Executed
+
+Cycle 11 Completed ----------->
+ Rule r28 with Priority 28 has been Executed
+
+Cycle 12 Completed ----------->
+ Rule r80 with Priority 80 has been Executed
+
+Cycle 13 Completed ----------->
+ Rule r20 with Priority 20 has been Executed
+
+Cycle 14 Completed ----------->
+ Rule r100 with Priority 100 has been Executed
+
+Cycle 15 Completed ----------->
+ Rule r100 with Priority 100 has been Executed
+
+Cycle 16 Completed ----------->
+ Rule r99 with Priority 99 has been Executed
+
+Cycle 17 Completed ----------->
+ Rule r99 with Priority 99 has been Executed
+
+Cycle 18 Completed ----------->
+ Rule r88 with Priority 88 has been Executed
+
+Cycle 19 Completed ----------->
+ Rule r70 with Priority 70 has been Executed
+
+Cycle 20 Completed ----------->
+ Rule r55 with Priority 55 has been Executed
+
+Cycle 21 Completed ----------->
+ Rule r45 with Priority 45 has been Executed
+
+Cycle 22 Completed ----------->
+ Rule r30 with Priority 30 has been Executed
+
+Cycle 23 Completed ----------->
+ Rule r19 with Priority 19 has been Executed
+
+Cycle 24 Completed ----------->
+ Rule r16 with Priority 16 has been Executed
+
+Cycle 25 Completed ----------->
+ Rule r15 with Priority 15 has been Executed
+
+Cycle 26 Completed ----------->
+ Rule r13 with Priority 13 has been Executed
+
+Cycle 27 Completed ----------->
+ Rule r5 with Priority 5 has been Executed
+
+Cycle 28 Completed ----------->
+ Rule rule2 with Priority 2 has been Executed
+
+Cycle 29 Completed ----------->
+ Rule r02 with Priority 0 has been Executed
+
+Cycle 30 Completed ----------->
+ Rule r0 with Priority 0 has been Executed
+
+30 Cycle's completed
+30 Cycle's completed
+
+ 	The execution time of the program is 4.313770147000469
