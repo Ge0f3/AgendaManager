@@ -1,5 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+#Author  : Geoffrey
 
 import re
 import timeit
@@ -80,12 +81,6 @@ class AgendaManager(object):
         else:
         	print("{} Cycle's completed ".format(self.cycle-1))
 
-        '''if(self.cycle<=30 and not self.rulelist):
-        	Max = self.rulelist.pop(0)
-        	print("Rule {} with Priority {} has been Executed  \n Cycle {} Completed ----------->".format(Max.name,Max.rule,self.cycle))
-        	self.cycle += 1
-        else:
-        	print("{} Cycle's completed ".format(self.cycle-1))'''
         
 
     def printrules(self):
@@ -127,26 +122,10 @@ if __name__ == '__main__':
     AM = AgendaManager()
     start = timeit.default_timer()
     rulelist = AM.get_rules()
-    #print("The Tree before hepify")
-    #AM.printrules()
-    # buildq(rulelist)
-    #AM.BuildQ(AM.rulelist)
-    #print("The Tree after hepify")
-    #AM.printrules()
-    #AM.Delete()
     while(AM.cycle < 30 and len(AM.rulelist)>0):
     	AM.ExtractMax()
     stop = timeit.default_timer()
     print("\n \tThe execution time of the program is {}".format(stop-start))
-    '''option = input('\t Do you want to fire an element \n Enter your option : ')
     
-    if(option == 'yes' or option == 'y'):
-        print("The Rules from priotiry  list will be fired")
-        AM.Delete()
-    else:
-        print("Ok the priority List will not be fired")
-    while(option =='yes' or option == 'y') :
-        AM.Delete()
-        option = input('\t Do you want to fire an element \n Enter your option : ')'''
     
 
