@@ -23,7 +23,7 @@ class AgendaManager(object):
         print ('\t\t--AgendaManager--\n')
         #self.Performing='performing'
         self.rulelist = list()
-        self.cycle=1
+        self.cycle=0
 
     def get_rules(self):
         try:
@@ -65,7 +65,7 @@ class AgendaManager(object):
     def ExtractMax(self):
         Max = self.rulelist.pop(0)
         self.cycle += 1
-        print("Cycle {} Completed -----------> \n Rule {} with Priority {} has been Executed  \n ".format(self.cycle,Max.name,Max.rule,))
+        print("Cycle {} Completed ----------->\n Rule {} with Priority {} has been Executed  \n ".format(self.cycle,Max.name,Max.rule,))
 
         n=len(self.rulelist)
         for i in reversed(range(n // 2)):
